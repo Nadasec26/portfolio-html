@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nada Mohamed Rayan — WordPress Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav>
+    <div class="container nav-inner">
+      <div class="logo">NMR</div>
+      <ul class="nav-links">
+        <li><a href="#about"      onclick="scrollToSection('about');return false">About</a></li>
+        <li><a href="#experience" onclick="scrollToSection('experience');return false">Experience</a></li>
+        <li><a href="#projects"   onclick="scrollToSection('projects');return false">Projects</a></li>
+        <li><a href="#contact"    onclick="scrollToSection('contact');return false">Contact</a></li>
+      </ul>
+      <a href="mailto:ndyryan6@gmail.com" class="btn btn-primary">Hire Me</a>
+    </div>
+  </nav>
+
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg" id="heroBg">
+      <img
+        src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&auto=format&fit=crop&q=50"
+        alt=""
+      />
+    </div>
+    <div class="hero-glow"></div>
+
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Left: text -->
+        <div>
+          <span class="badge badge-primary">Available for new projects</span>
+          <h1 class="hero-title reveal">
+            Crafting digital<br>
+            <em>experiences</em> with<br>
+            precision.
+          </h1>
+          <p class="hero-desc reveal" style="transition-delay:.1s">
+            I'm Nada Mohamed Rayan. Detail-oriented and creative WordPress Developer
+            with hands-on experience in designing, developing, and maintaining
+            responsive and user-friendly websites.
+          </p>
+          <div class="hero-btns reveal" style="transition-delay:.2s">
+            <a href="#projects" onclick="scrollToSection('projects');return false" class="btn btn-primary btn-lg">
+              View Projects
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="#contact" onclick="scrollToSection('contact');return false" class="btn btn-ghost btn-lg">
+              Contact Me
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: photo -->
+        <div class="hero-img-wrap reveal" style="transition-delay:.15s">
+          <img
+            src="./image/WhatsApp Image 2026-06-03 at 10.12.01 AM.jpeg"
+            alt="Nada Mohamed Rayan"
+          />
+          <div class="hero-badge">
+            <div class="hero-badge-icon">
+              <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                <rect x="3" y="3" width="7" height="7" rx="1"/>
+                <rect x="14" y="3" width="7" height="7" rx="1"/>
+                <rect x="3" y="14" width="7" height="7" rx="1"/>
+                <rect x="14" y="14" width="7" height="7" rx="1"/>
+              </svg>
+            </div>
+            <div>
+              <p>WordPress Expert</p>
+              <span>Themes &amp; Customization</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Left: bio -->
+        <div class="reveal-left">
+          <p class="label">Objective</p>
+          <h2 class="section-title">Who I Am</h2>
+          <p class="about-desc">
+            Detail-oriented and creative WordPress Developer with 1 year of hands-on experience
+            in designing, developing, and maintaining responsive and user-friendly websites.
+            Proficient in customizing themes, working with plugins, and optimizing website
+            performance. Eager to contribute technical skills and a passion for clean code.
+          </p>
+
+          <h4 style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px">Soft Skills</h4>
+          <div class="chips">
+            <span class="chip">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Problem-Solving
+            </span>
+            <span class="chip">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Attention to Detail
+            </span>
+            <span class="chip">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Communication
+            </span>
+            <span class="chip">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Team Collaboration
+            </span>
+          </div>
+
+          <h4 style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin:26px 0 12px">Languages</h4>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <span class="badge">Arabic (Native)</span>
+            <span class="badge">English (Proficient)</span>
+          </div>
+        </div>
+
+        <!-- Right: skill cards -->
+        <div class="skills-grid reveal-right">
+          <div class="card skill-card">
+            <div class="sk-icon">
+              <svg width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+                <rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>
+              </svg>
+            </div>
+            <h4>WordPress Setup</h4>
+            <p>Proficient in customizing themes, working with plugins like Elementor and WooCommerce.</p>
+            <div class="tags-row">
+              <span class="skill-tag">Themes</span>
+              <span class="skill-tag">Elementor</span>
+              <span class="skill-tag">WooCommerce</span>
+            </div>
+          </div>
+
+          <div class="card skill-card">
+            <div class="sk-icon">
+              <svg width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <h4>Frontend Dev</h4>
+            <p>Translating designs into responsive, interactive interfaces with modern technologies.</p>
+            <div class="tags-row">
+              <span class="skill-tag">HTML5/CSS3</span>
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">TypeScript</span>
+            </div>
+          </div>
+
+          <div class="card skill-card wide">
+            <div class="sk-icon">
+              <svg width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Backend &amp; APIs</h4>
+              <p>Integrating third-party APIs, payment gateways, and managing server environments.</p>
+              <div class="tags-row">
+                <span class="skill-tag">PHP</span>
+                <span class="skill-tag">API Integration</span>
+                <span class="skill-tag">Hostinger</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="container">
+      <div class="exp-grid">
+
+        <div class="reveal-left">
+          <p class="label">Journey</p>
+          <h2 class="section-title">Experience &amp; Education</h2>
+          <p style="color:var(--muted)">
+            Building a strong foundation in computer science and applying it to
+            real-world agency projects.
+          </p>
+        </div>
+
+        <div class="timeline reveal-right">
+
+          <!-- Job -->
+          <div class="tl-item">
+            <div class="tl-dot active"></div>
+            <div class="tl-header">
+              <h4>WordPress Developer</h4>
+              <span class="badge badge-primary">July 2025 – Present</span>
+            </div>
+            <p class="tl-sub">Zbooma Agency</p>
+            <ul class="tl-list">
+              <li>
+                <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+                Designed dozens of online stores in the Saudi and Egyptian markets.
+              </li>
+              <li>
+                <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+                Optimized website speed and performance for enhanced user experience.
+              </li>
+              <li>
+                <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+                Maintained and updated existing WordPress websites, ensuring security and functionality.
+              </li>
+              <li>
+                <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+                Integrated third-party APIs and payment gateways to improve site capabilities.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Education -->
+          <div class="tl-item">
+            <div class="tl-dot edu"></div>
+            <div class="tl-header">
+              <h4>Faculty of Computers &amp; Information</h4>
+              <span class="badge">Graduated 2024</span>
+            </div>
+            <p class="tl-sub">Suez Canal University</p>
+            <div class="edu-pills">
+              <span class="edu-pill">Grade: Very Good</span>
+              <span class="edu-pill">Graduation Project: Excellent</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== PROJECTS (featured 3) ===== -->
+  <section id="projects">
+    <div class="container">
+      <div style="margin-bottom:52px" class="reveal">
+        <p class="label">Portfolio</p>
+        <h2 class="section-title">Selected Works</h2>
+      </div>
+
+      <!-- Cards are injected here by scripts.js → renderFeatured() -->
+      <div class="proj-grid" id="featuredGrid"></div>
+
+      <div class="view-more-wrap reveal">
+        <a href="projects.html" class="btn btn-outline btn-lg">
+          View All Projects
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== CONTACT / FOOTER ===== -->
+  <footer id="contact">
+    <div class="contact-bg">
+      <img
+        src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&auto=format&fit=crop&q=30"
+        alt=""
+      />
+    </div>
+    <div class="container contact-inner">
+
+      <h2 class="contact-title reveal">
+        Let's build something<br>
+        <em>extraordinary.</em>
+      </h2>
+      <p class="contact-desc reveal" style="transition-delay:.1s">
+        Currently open for new opportunities. Whether you have a question or just
+        want to say hi, I'll try my best to get back to you!
+      </p>
+
+      <div class="contact-row reveal" style="transition-delay:.2s">
+        <a href="mailto:ndyryan6@gmail.com" class="contact-item">
+          <div class="contact-icon">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          ndyryan6@gmail.com
+        </a>
+        <span class="dot">•</span>
+        <a href="tel:01229787016" class="contact-item">
+          <div class="contact-icon">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.91-1.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.66 15l.26 1.92z"/>
+            </svg>
+          </div>
+          01229787016
+        </a>
+        <span class="dot">•</span>
+        <span class="contact-item">
+          <div class="contact-icon">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          Mansoura, Egypt
+        </span>
+      </div>
+
+      <div class="footer-line">
+        <p>&copy; <span id="yr"></span> Nada Mohamed Rayan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
