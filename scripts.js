@@ -65,7 +65,7 @@ const projects = [
 },
 {
   title: "Gift.store",
-  url: "https://givt.store/",
+  url: "givt.store",
   image: "./image/WhatsApp Image 2026-08-02 at 10.59.06 AM.jpeg",
   desc: "Designed and developed a WordPress e-commerce store for personalized gifts and custom products. Implemented custom product personalization using YITH WooCommerce Product Add-ons & Extra Options, allowing customers to add their own text or requests before purchasing. Also customized the store to support the new Saudi Riyal currency symbol, delivering a localized shopping experience.",
   tags: ["WordPress", "E-Commerce", "YITH Product Add-ons", "WooCommerce"]
