@@ -83,6 +83,20 @@ const projects = [
   image: "./image/ChatGPT Image Sep 13, 2026, 03_02_23 PM.png",
   desc: "Designed and developed a modern furniture and home decor e-commerce website using WordPress, Elementor, and WooCommerce. The site features an elegant and minimal layout tailored for luxury furniture, well-structured product categories, intuitive navigation, and a seamless, fully responsive shopping experience across all devices.",
   tags: ["WordPress", "Elementor", "WooCommerce", "E-Commerce", "Furniture", "Responsive Design"]
+},
+{
+  title: "Ahmad-Ama",
+  url: "ahmad-ama.com",
+  image: "./image/WhatsApp Image 2026-09-13 at 3.44.45 PM.jpeg",
+  desc: "Designed and custom-developed a luxurious e-commerce website for a premium perfume brand (AMA - Ahmad) using custom coding. The platform features an elegant, minimalist layout tailored for high-end fragrances, seamless product exploration, high performance, and an optimized responsive user experience across all devices.",
+  tags: ["WordPress", "Elementor", "WooCommerce", "E-Commerce", "Perfume", "Responsive Design", "Custom Coding"]
+},
+{
+  title: "Ahmad-Ama",
+  url: "ahmad-ama.com",
+  image: "./image/WhatsApp Image 2026-09-13 at 3.44.45 PM (1).jpeg",
+  desc: "Designed and custom-developed a luxurious e-commerce website for a premium perfume brand (AMA - Ahmad) using custom coding. The platform features an elegant, minimalist layout tailored for high-end fragrances, seamless product exploration, high performance, and an optimized responsive user experience across all devices.",
+  tags: ["WordPress", "Elementor", "WooCommerce", "E-Commerce", "Perfume", "Responsive Design", "Custom Coding"]
 }
  
 ];
