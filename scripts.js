@@ -69,6 +69,20 @@ const projects = [
   image: "./image/WhatsApp Image 2026-08-02 at 10.59.06 AM.jpeg",
   desc: "Designed and developed a WordPress e-commerce store for personalized gifts and custom products. Implemented custom product personalization using YITH WooCommerce Product Add-ons & Extra Options, allowing customers to add their own text or requests before purchasing. Also customized the store to support the new Saudi Riyal currency symbol, delivering a localized shopping experience.",
   tags: ["WordPress", "E-Commerce", "YITH Product Add-ons", "WooCommerce"]
+},
+{
+  title: "WorthFinding",
+  url: "worthfinding-sa.com",
+  image: "./image/ChatGPT Image Sep 13, 2026, 03_02_23 PM.png",
+  desc: "Designed and developed a bilingual digital e-commerce store using WordPress and Elementor. The website features a clean and modern layout for showcasing digital books and products, with organized product collections, a smooth shopping experience, and responsive design across all devices. The store was also customized to support both English and Arabic, providing a seamless experience for a wider audience.",
+  tags: ["WordPress", "Elementor", "WooCommerce", "E-Commerce", "Custom Development"]
+},
+{
+  title: "Qasralomda",
+  url: "qasralomda.com",
+  image: "./image/ChatGPT Image Sep 13, 2026, 03_02_23 PM.png",
+  desc: "Designed and developed a modern furniture and home decor e-commerce website using WordPress, Elementor, and WooCommerce. The site features an elegant and minimal layout tailored for luxury furniture, well-structured product categories, intuitive navigation, and a seamless, fully responsive shopping experience across all devices.",
+  tags: ["WordPress", "Elementor", "WooCommerce", "E-Commerce", "Furniture", "Responsive Design"]
 }
  
 ];
@@ -98,7 +112,7 @@ const extSVG = `<svg width="13" height="13" fill="none" stroke="currentColor" st
 function projectCard(p) {
   const tagsHtml  = p.tags.map(t => `<span class="tag">${t}</span>`).join('');
   const thumbHtml = p.image
-    ? `<img src="${p.image}" alt="${p.title}" class="proj-thumb-img" />`
+    ? `<img src="${encodeURI(p.image)}" alt="${p.title}" class="proj-thumb-img" onerror="this.replaceWith(document.createRange().createContextualFragment(globeSVG))" />`
     : globeSVG;
 
   return `
