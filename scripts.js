@@ -101,12 +101,14 @@ const projects = [
 {
   title: "Tashlih Auto",
   url: "tashlih-auto.com",
+  image: "image/Screenshot from 2026-10-01 10-57-43.png",
   desc: "An Arabic vehicle-buying website serving Jeddah and Makkah. It highlights free vehicle towing, official plate deregistration through Absher, and fast payment, with direct call and WhatsApp options.",
   tags: ["Automotive", "Vehicle Buying", "Arabic", "Lead Generation"]
 },
 {
   title: "Masdoom",
   url: "masdoom.com",
+  image: "image/Screenshot from 2026-10-01 10-56-29.png",
   desc: "An Arabic automotive website focused on buying damaged and non-running vehicles in Jeddah. It explains the service process and vehicle types, with a contact form and direct phone and WhatsApp options.",
   tags: ["Automotive", "Service", "Arabic", "Lead Generation"]
 }
