@@ -90,6 +90,12 @@ const projects = [
   image: "./image/WhatsApp Image 2026-09-13 at 3.44.45 PM (1).jpeg",
   desc: "Designed and custom-developed a luxurious e-commerce website for a premium perfume brand (AMA - Ahmad) using custom coding. The platform features an elegant, minimalist layout tailored for high-end fragrances, seamless product exploration, high performance, and an optimized responsive user experience across all devices.",
   tags: ["WordPress", "Elementor", "WooCommerce", "E-Commerce", "Perfume", "Responsive Design", "Custom Coding"]
+},
+{
+  title: "Tashlih Auto Makkah",
+  url: "tashlihauto-makkah.com",
+  desc: "An Arabic service website for buying damaged, broken, and end-of-life vehicles directly from owners in Jeddah and Makkah. It presents the service clearly and makes it easy for visitors to request an offer by phone, WhatsApp, or contact form.",
+  tags: ["Automotive", "Service", "Arabic", "Lead Generation"]
 }
  
 ];
@@ -139,12 +145,12 @@ function projectCard(p) {
 
 /* ============================================================
    RENDER GRIDS
-   renderFeatured() → يعرض أول 3 مشاريع في index.html
+  renderFeatured() → يعرض أول 3 مشاريع وآخر مشروع في index.html
    renderAll()      → يعرض كل المشاريع في projects.html
 ============================================================ */
 function renderFeatured() {
   const grid = document.getElementById('featuredGrid');
-  if (grid) grid.innerHTML = projects.slice(0, 3).map(projectCard).join('');
+  if (grid) grid.innerHTML = [...projects.slice(0, 3), ...projects.slice(-1)].map(projectCard).join('');
 }
 
 function renderAll() {
