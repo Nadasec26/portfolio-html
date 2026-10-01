@@ -111,6 +111,13 @@ const projects = [
   image: "image/Screenshot from 2026-10-01 10-56-29.png",
   desc: "An Arabic automotive website focused on buying damaged and non-running vehicles in Jeddah. It explains the service process and vehicle types, with a contact form and direct phone and WhatsApp options.",
   tags: ["Automotive", "Service", "Arabic", "Lead Generation"]
+},
+{
+  title: "Ghwas Studio",
+  url: "ghwas-studio.com",
+  image: "https://ghwas-studio.com/wp-content/uploads/2026/08/Container.webp",
+  desc: "Designed and developed an Arabic WooCommerce storefront for Ghwas Studio, bringing professional photography packages for men and women together with video production, event coverage, and live streaming. The catalog also features camera-equipment rentals and photo printing, with clear service categories, bookable packages, and direct WhatsApp contact for each department.",
+  tags: ["WordPress", "WooCommerce", "Photography", "Video Production", "Equipment Rental", "Arabic"]
 }
  
 ];
