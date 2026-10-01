@@ -94,6 +94,7 @@ const projects = [
 {
   title: "Tashlih Auto Makkah",
   url: "tashlihauto-makkah.com",
+  image: "image/Screenshot from 2026-10-01 10-03-28.png",
   desc: "An Arabic service website for buying damaged, broken, and end-of-life vehicles directly from owners in Jeddah and Makkah. It presents the service clearly and makes it easy for visitors to request an offer by phone, WhatsApp, or contact form.",
   tags: ["Automotive", "Service", "Arabic", "Lead Generation"]
 }
