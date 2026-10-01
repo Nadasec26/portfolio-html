@@ -97,6 +97,18 @@ const projects = [
   image: "image/Screenshot from 2026-10-01 10-03-28.png",
   desc: "An Arabic service website for buying damaged, broken, and end-of-life vehicles directly from owners in Jeddah and Makkah. It presents the service clearly and makes it easy for visitors to request an offer by phone, WhatsApp, or contact form.",
   tags: ["Automotive", "Service", "Arabic", "Lead Generation"]
+},
+{
+  title: "Tashlih Auto",
+  url: "tashlih-auto.com",
+  desc: "An Arabic vehicle-buying website serving Jeddah and Makkah. It highlights free vehicle towing, official plate deregistration through Absher, and fast payment, with direct call and WhatsApp options.",
+  tags: ["Automotive", "Vehicle Buying", "Arabic", "Lead Generation"]
+},
+{
+  title: "Masdoom",
+  url: "masdoom.com",
+  desc: "An Arabic automotive website focused on buying damaged and non-running vehicles in Jeddah. It explains the service process and vehicle types, with a contact form and direct phone and WhatsApp options.",
+  tags: ["Automotive", "Service", "Arabic", "Lead Generation"]
 }
  
 ];
@@ -146,12 +158,12 @@ function projectCard(p) {
 
 /* ============================================================
    RENDER GRIDS
-  renderFeatured() → يعرض أول 3 مشاريع وآخر مشروع في index.html
+  renderFeatured() → يعرض أول 3 مشاريع وآخر 3 مشاريع في index.html
    renderAll()      → يعرض كل المشاريع في projects.html
 ============================================================ */
 function renderFeatured() {
   const grid = document.getElementById('featuredGrid');
-  if (grid) grid.innerHTML = [...projects.slice(0, 3), ...projects.slice(-1)].map(projectCard).join('');
+  if (grid) grid.innerHTML = [...projects.slice(0, 3), ...projects.slice(-3)].map(projectCard).join('');
 }
 
 function renderAll() {
