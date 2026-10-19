@@ -15,13 +15,6 @@ const projects = [
     tags:  ["Dynamic", "Custom Calculator", "UX"]
   },
   {
-    title: "Metals Engineering",
-    url:   "metals-engineering.com",
-    image: "./image/Screenshot 2026-06-03 120444.png",
-    desc:  "Developed a modern service-based website for Metal Engineering (Saudi Engineering Company) using WordPress, featuring advanced Fluent Forms Pro for service requests and a smooth, user-friendly experience.",
-    tags:  ["Corporate", "Forms Pro"]
-  },
-  {
     title: "Kashtah Waqanas",
     url:   "kashtahwaqanas.com",
     image: "./image/Screenshot 2026-06-03 120808.png",
@@ -118,6 +111,27 @@ const projects = [
   image: "https://ghwas-studio.com/wp-content/uploads/2026/08/Container.webp",
   desc: "Designed and developed an Arabic WooCommerce storefront for Ghwas Studio, bringing professional photography packages for men and women together with video production, event coverage, and live streaming. The catalog also features camera-equipment rentals and photo printing, with clear service categories, bookable packages, and direct WhatsApp contact for each department.",
   tags: ["WordPress", "WooCommerce", "Photography", "Video Production", "Equipment Rental", "Arabic"]
+},
+{
+  title: "Shenora",
+  url: "shenora-sa.com",
+  image: "image/Shenora Arabic Sportswear Hero.png",
+  desc: "Designed and developed an Arabic WooCommerce storefront for Shenora, a women's sportswear brand focused on confidence, comfort, and everyday performance. The website features stylish activewear collections, including sports sets, leggings, tops, skirts, and lightweight jackets, with visually engaging product showcases, promotional banners, and a clean shopping experience tailored for Arabic-speaking customers.",
+  tags: ["WordPress", "WooCommerce", "Elementor", "Women's Sportswear", "E-commerce", "Arabic", "Responsive Design"]
+},
+{
+  title: "Afaq Solar",
+  url: "afaqsolar.sa",
+  image: "image/Solar Energy Solutions Homepage.png",
+  desc: "Designed and developed a Saudi e-commerce storefront on Salla for Afaq Solar, specializing in solar energy solutions and power systems. The store showcases a wide range of products, including solar panels, inverters, batteries, lighting solutions, and energy monitoring equipment. Featuring organized product categories, promotional banners, product highlights, and clear calls to action, the website provides customers with an accessible shopping experience for residential and commercial solar energy needs.",
+  tags: ["Salla", "E-commerce", "Solar Energy", "Renewable Energy", "Product Catalog", "UI Design", "Arabic"]
+},
+{
+  title: "Khesal",
+  url: "khesal-sa.com",
+  image: "image/خصال_ أناقة طبيعية للعناية الفاخرة.png",
+  desc: "Designed and customized an Arabic e-commerce storefront on Zid for Khesal, a personal care brand specializing in hair care, skincare, and body care products. The store features premium product collections, promotional offers, category-based shopping, visually rich product showcases, and dedicated sections highlighting hair care benefits and product results. With an elegant natural-inspired visual identity, coordinated product photography, and a responsive layout, the website delivers a seamless shopping experience tailored to Arabic-speaking customers.",
+  tags: ["Zid", "E-commerce", "Beauty & Personal Care", "Hair Care", "Skincare", "Arabic", "Responsive Design"]
 }
  
 ];
