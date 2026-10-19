@@ -85,22 +85,22 @@ const projects = [
   tags: ["WordPress", "Elementor", "WooCommerce", "E-Commerce", "Perfume", "Responsive Design", "Custom Coding"]
 },
 {
-  title: "Tashlih Auto Makkah",
-  url: "tashlihauto-makkah.com",
+  title: "Kharbaan",
+  url: "kharbaan.com",
   image: "image/Screenshot from 2026-10-01 10-03-28.png",
   desc: "An Arabic service website for buying damaged, broken, and end-of-life vehicles directly from owners in Jeddah and Makkah. It presents the service clearly and makes it easy for visitors to request an offer by phone, WhatsApp, or contact form.",
   tags: ["Automotive", "Service", "Arabic", "Lead Generation"]
 },
 {
-  title: "Tashlih Auto",
-  url: "tashlih-auto.com",
+  title: "Masdoom",
+  url: "masdoom.com",
   image: "image/Screenshot from 2026-10-01 10-57-43.png",
   desc: "An Arabic vehicle-buying website serving Jeddah and Makkah. It highlights free vehicle towing, official plate deregistration through Absher, and fast payment, with direct call and WhatsApp options.",
   tags: ["Automotive", "Vehicle Buying", "Arabic", "Lead Generation"]
 },
 {
-  title: "Masdoom",
-  url: "masdoom.com",
+  title: "Auto-Damage",
+  url: "auto-damage.com",
   image: "image/Screenshot from 2026-10-01 10-56-29.png",
   desc: "An Arabic automotive website focused on buying damaged and non-running vehicles in Jeddah. It explains the service process and vehicle types, with a contact form and direct phone and WhatsApp options.",
   tags: ["Automotive", "Service", "Arabic", "Lead Generation"]
@@ -121,7 +121,7 @@ const projects = [
 },
 {
   title: "Afaq Solar",
-  url: "afaqsolar.sa",
+  url: "afaqsolar.com",
   image: "image/Solar Energy Solutions Homepage.png",
   desc: "Designed and developed a Saudi e-commerce storefront on Salla for Afaq Solar, specializing in solar energy solutions and power systems. The store showcases a wide range of products, including solar panels, inverters, batteries, lighting solutions, and energy monitoring equipment. Featuring organized product categories, promotional banners, product highlights, and clear calls to action, the website provides customers with an accessible shopping experience for residential and commercial solar energy needs.",
   tags: ["Salla", "E-commerce", "Solar Energy", "Renewable Energy", "Product Catalog", "UI Design", "Arabic"]
